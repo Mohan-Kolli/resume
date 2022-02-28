@@ -6,7 +6,7 @@ body {
 
 h1 {
     font-size: 6rem;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Montserrat', sans-serif;
     line-height: 0.5;
     color: #66BFBF;
     margin-top: 50px;
@@ -14,7 +14,7 @@ h1 {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: normal;
     color: #66BFBF;
     margin: 0px auto 20px auto;
@@ -31,19 +31,38 @@ h4 {
 }
 
 h5 {
-    color: #F05454;
+    color: #635b5b;
     font-weight: lighter;
 }
 
+hr {
+    border-top: 5px dotted grey;
+    width: 60px;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
 .top-container {
-    background-color: #F5F5F5;
+    background-color: #f8f7f7;
     padding-top: 100px;
 }
 
 .middle-container {
-    background-color: #30475E;
+    background-color: #D6E6F2;
+    padding-bottom: 5rem;
 }
 
+
+.profile {
+    width: 50%;
+    margin: 10px auto 10px
+}
+
+
+.profile img {
+    padding: 5%;
+    margin: 5%
+}
 
 .bottom-cloud {
     position: absolute;
@@ -57,19 +76,45 @@ h5 {
     bottom: 90% 
 }
 
+.skills {
+    background-color: white;
+    padding: 5rem auto 5rem;    
+}
 
-.skill-row {
+.skills h2 {
+    padding-top: 5rem;
+}
+.skill-row{
     margin: 100px auto 0px;
     width: 50%;
     text-align: left;
 }
 
-.skill-row img {
-    width: 25%;
+.skills-img-rogers {
+    width: 20%;
     float: left;
     margin-right: 30px;
 }
 
+.skills-img-att {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+
 li {
     line-height: 2;
+}
+
+.contact-me {
+    background-color: #E7EAB5;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+.bottom-container {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
